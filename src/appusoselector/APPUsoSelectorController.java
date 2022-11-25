@@ -38,15 +38,15 @@ public class APPUsoSelectorController implements Initializable {
         items.add("CUATRO");
         selectorArriba.setItems(items);
         selectorAbajo.setItems(items);
+        
+        selectorArriba.setOnAction((ActionEvent event ) -> {
+        labelCambiarTexto.setText("Pulsado selector de arriba");
+    });
+        
+            selectorAbajo.setOnAction((ActionEvent event ) -> {
+        labelCambiarTexto.setText("Pulsado selector de abajo");
+    });
 
-    }
-
-    @FXML
-    private void ClickArriba(MouseEvent event) {
-    }
-
-    @FXML
-    private void ClickAbajo(MouseEvent event) {
     }
 
 }
