@@ -6,18 +6,18 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorController">
+<AnchorPane id="AnchorPane" prefHeight="478.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorController">
    <children>
-      <VBox layoutX="224.0" layoutY="100.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="224.0" AnchorPane.rightAnchor="225.60000000000002" AnchorPane.topAnchor="100.0">
+      <VBox layoutX="16.0" layoutY="-1.0" prefHeight="452.0" prefWidth="760.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label prefHeight="30.0" prefWidth="183.0" text="Selectores" textFill="RED">
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="707.0" text="Selectores" textFill="RED">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
-            <SelectorDeslizamiento fx:id="selectorArriba" onMouseClicked="#ClickArriba" />
-            <SelectorDeslizamiento fx:id="selectorAbajo" onMouseClicked="#ClickAbajo" />
-            <Label fx:id="labelCambiarTexto" prefHeight="18.0" prefWidth="166.0" text="Label" textFill="#00ff3c" />
+            <SelectorDeslizamiento fx:id="selectorArriba" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="706.0" />
+            <SelectorDeslizamiento fx:id="selectorAbajo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="702.0" />
+            <Label fx:id="labelCambiarTexto" alignment="CENTER" prefHeight="82.0" prefWidth="771.0" text="Label" textFill="#00ff3c" />
          </children>
       </VBox>
    </children>
